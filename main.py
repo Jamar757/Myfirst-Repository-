@@ -1,6 +1,6 @@
-def factorial(k):
-  if k == 0:
+def factorial(A):
+  if A == 0:
     return 1
   else:
-    return k * factorial(k - 1)
+    return A * factorial(A - 1)
 print(factorial(5))
